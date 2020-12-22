@@ -1,0 +1,32 @@
+// RIGHT SECTION
+#section-right {
+  width: 802px;
+  height: 835.74px;
+  z-index: -1;
+
+  .info-box {
+    width: 729.55px;
+    height: 237.44px;
+    border: 0.91px solid #e5d8ed;
+    border-radius: 5px;
+    margin: 44.8px 26.2px 53.1px 46.3px;
+    position: relative;
+
+    > p {
+      padding: 48.4px 16.4px 0.9px 16.4px;
+      text-align: center;
+      font-size: 21px;
+      color: $text;
+      line-height: 20.95pt;
+      z-index: 1;
+    }
+
+    > a {
+      font-size: 17px;
+      color: $text;
+      text-align: center;
+      display: block;
+      padding-top: 20px;
+    }
+  }
+}

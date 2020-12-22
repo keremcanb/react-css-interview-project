@@ -1,0 +1,179 @@
+// NAVBAR BUTTONS
+.btn-group-left {
+  margin-left: 71.4px;
+
+  .btn-left {
+    position: relative;
+    background-color: $base;
+    color: $white;
+    border: 3px solid $base;
+    border-radius: 50px;
+    width: 279.92px;
+    height: 46.24px;
+    margin: 14.4px 25.6px 14.4px 0;
+    font-size: 14px;
+    cursor: pointer;
+
+    .btn-left:first-child {
+      display: flex;
+      justify-content: flex-end;
+    }
+
+    &:before {
+      font-family: 'Font Awesome 5 Free';
+      content: '\f04b';
+      font-weight: 900;
+      font-size: 20px;
+      position: absolute;
+      left: -20px;
+      top: -10px;
+      padding: 2px;
+      background-color: $white;
+      color: $alt;
+      border: 4px solid $base;
+      width: 49.54px;
+      height: 49.54px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+}
+
+.btn-group-right {
+  margin-right: 40px;
+
+  .btn-right {
+    width: 245px;
+    height: 45px;
+    background: $alt;
+    color: $white;
+    border: none;
+    font-size: 17.46px;
+    line-height: 20.95pt;
+    border-radius: 2.55px;
+    margin: 15.3px 27.5px 14.8px 0;
+    cursor: pointer;
+  }
+
+  .btn-active {
+    background: $base;
+  }
+}
+
+// LEFT SECTION BUTTONS
+.btn-box {
+  width: 176.23px;
+  height: 38.82px;
+  background: $alt;
+  color: $white;
+  border: none;
+  font-size: 15.06;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+// RIGHT SECTION BUTTONS
+.btn-info {
+  background-color: $base;
+  color: $white;
+  border: 3px solid $base;
+  border-radius: 50px;
+  width: 188.23px;
+  height: 51.39px;
+  font-size: 14px;
+  position: absolute;
+  top: -25px;
+  padding-right: 20.5px;
+  padding-left: 70.5px;
+  margin-left: 280px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+
+  &:before {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    font-size: 40px;
+    position: absolute;
+    left: -20px;
+    top: -10px;
+    padding: 5px;
+    background-color: $white;
+    border: 4px solid $base;
+    width: 49.54px;
+    height: 49.54px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.btn-info-1::before {
+  content: '\f004';
+  color: $alt;
+}
+
+.btn-info-2::before {
+  content: '\f002';
+  color: $base;
+}
+
+.btn-info-3::before {
+  content: '\f011';
+  color: $alt;
+}
+
+.btn-info-4::before {
+  content: '\f009';
+  color: $base;
+}
+
+.btn-info-5::before {
+  content: '\f005';
+  color: $alt;
+}
+
+.btn-info-6::before {
+  content: '\f018';
+  color: $base;
+}
+
+.btn-info-7::before {
+  content: '\f007';
+  color: $alt;
+}
+
+.btn-info-8::before {
+  content: '\f008';
+  color: $base;
+}
+
+.btn-info-9::before {
+  content: '\f009';
+  color: $alt;
+}
+
+.btn-info-10::before {
+  content: '\f010';
+  color: $base;
+}
+
+// BOTTOM
+.btn-bottom {
+  width: 219.33px;
+  height: 38.82px;
+  background: $alt;
+  color: $white;
+  border: none;
+  font-size: 16px;
+  line-height: 19.2pt;
+  border-radius: 2.55px;
+  margin-left: 300px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}

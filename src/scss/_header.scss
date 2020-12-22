@@ -1,0 +1,51 @@
+// HEADER
+#header {
+  width: 1919px;
+  height: 209.36px;
+  position: sticky;
+  top: 0;
+
+  a {
+    color: $text;
+    font-size: 16px;
+    text-decoration: none;
+  }
+
+  .header-bar {
+    height: 31px;
+    background-color: $text;
+  }
+}
+
+// TOP NAVBAR
+#nav-top {
+  display: flex;
+  justify-content: space-between;
+  height: 111px;
+  background-color: $white;
+
+  .logo-container {
+    display: flex;
+    margin: 6.3px 0 7.5px 118.1px;
+  }
+
+  h4 {
+    margin: 62.8px 0 0 16.2px;
+    color: $base;
+    font-size: 24px;
+    font-weight: 200;
+  }
+
+  .auth {
+    margin: 43.2px 86px 45.8px 0;
+    color: $base;
+  }
+}
+
+// BOTTOM NAVBAR
+#nav-bottom {
+  display: flex;
+  justify-content: space-between;
+  height: 75px;
+  background-color: #e6e6e6;
+}
